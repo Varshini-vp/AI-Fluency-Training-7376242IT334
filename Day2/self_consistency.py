@@ -8,7 +8,7 @@ from config import client, MODEL, banner
 from cot_compare import COT_PROMPT, QUESTIONS
 
 RUNS = 5
-TEMPERATURE = 0.8          # deliberately NOT 0, so each run can differ
+TEMPERATURE = 0.8      # deliberately NOT 0, so each run can differ
 
 def final_answer(text):
     """Pull out the text after 'Final Answer:' (the last line of a CoT reply)."""
